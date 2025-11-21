@@ -54,7 +54,7 @@ const EventModal: React.FC<EventModalProps> = ({ isOpen, onClose, onSave, initia
               type="text"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
-              className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
+              className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-white"
               placeholder="مثلاً: مطالعه ریاضی"
             />
           </div>
@@ -94,7 +94,7 @@ const EventModal: React.FC<EventModalProps> = ({ isOpen, onClose, onSave, initia
             <textarea
               value={description}
               onChange={(e) => setDescription(e.target.value)}
-              className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all min-h-[80px]"
+              className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all min-h-[80px] bg-white"
               placeholder="جزئیات بیشتر..."
             />
           </div>
